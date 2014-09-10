@@ -1,0 +1,17 @@
+=Simple Dribble API
+
+==Run
+bundle install
+
+== To Test:
+run:   rake   or   rake test
+
+==To Use:
+Include './lib/dish.rb' in you project
+
+player = Dish::Player.new('username') - request all data for username: 'username'
+
+Access all attributes:
+player.id
+player.count
+...
